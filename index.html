@@ -5,59 +5,19 @@
     <title></title>
   </head>
   <body>
-    <h1>SQL homework</h1>
+    <h1 style="text-align: center; color: red;font-size:3em;margin-top:1em;">SQL homework</h1>
+    <ul style="text-align: center; margin-top:2em; font-size:1.5em;">
+      <li>1. Goal === build customer view via command line app using node and mySQL</li>
+      <li>1.A. create a database in mySQL</li>
+      <li>  A.b. mySql is a tabular data not that different from a spreadsheet</li>
+      <li>2. populate DB with mock data of products with at least 5 different data descriptors for each product</li>
+      <li>3. display all items in database to user via the command line app ...</li>
+      <li>4. Prompt user ... two messages</li>
+      <li>  4.1. what product would you like to buy ....  will accept a string ... "a very nice pen for writing ... "</li>
+      <li>  4.2  how many of product would you like to buy ... will accept an integer #####</li>
+      <li>5. Check to see if our store have enough inventory to sell to customer</li>
+      <li>  5.1 If not ... be nice to the customer and say sorry we only have x amount ... x may === 0 or none at called</li>
+      <li>  5.2 Still try to make a sale ... offer a related product ... must add to DB additional props</li>
+    </ul>
   </body>
 </html>
-
-<!-- Instructions
-
-
-Challenge #1: Customer View (Minimum Requirement)
-
-
-Create a MySQL Database called bamazon.
-Then create a Table inside of that database called products.
-The products table should have each of the following columns:
-
-
-
-item_id (unique id for each product)
-product_name (Name of product)
-department_name
-price (cost to customer)
-stock_quantity (how much of the product is available in stores)
-
-
-
-Populate this database with around 10 different products. (i.e. Insert "mock" data rows into this database and table).
-Then create a Node application called bamazonCustomer.js. Running this application will first display all of the items available for sale. Include the ids, names, and prices of products for sale.
-The app should then prompt users with two messages.
-
-
-
-The first should ask them the ID of the product they would like to buy.
-The second message should ask how many units of the product they would like to buy.
-
-
-
-Once the customer has placed the order, your application should check if your store has enough of the product to meet the customer's request.
-
-
-
-If not, the app should log a phrase like Insufficient quantity!, and then prevent the order from going through.
-
-
-
-However, if your store does have enough of the product, you should fulfill the customer's order.
-
-
-This means updating the SQL database to reflect the remaining quantity.
-Once the update goes through, show the customer the total cost of their purchase.
-
-
-
-
-
-
-
-If this activity took you between 8-10 hours, then you've put enough time into this assignment. Feel free to stop here  unless you want to take on the next challenge. -->
